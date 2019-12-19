@@ -1,0 +1,62 @@
+body {
+    font: 12px/18px Arial, sans-serif;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.header {
+    width: 95%;
+    padding: 40px 2.5% 40px 2.5%;
+    background: #91B8CB;
+    overflow: hidden;
+}
+
+.body {
+    width: 95%;
+    background: #475D41;
+    height: 500px;
+    padding: 40px 2.5% 40px 2.5%;
+}
+
+.logo {
+    float: left;
+    width: 30%;
+}
+
+.logo a {
+    font-size: 24px;
+    color: #000000;
+    font-weight: bold;
+    display: block;
+}
+
+form {
+    margin-left: 10px;
+}
+
+.Return {
+    margin-left: 10px;
+}
+
+#button24 {
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    padding: .5em 2em;
+    margin-right: 50px;
+    outline: none;
+    border-width: 2px 0;
+    border-style: solid none;
+    border-color: #6495ED #000 #4169E1;
+    border-radius: 6px;
+    background: linear-gradient(#ADD8E6, #5F9EA0) #B0C4DE;
+    transition: 0.2s;
+}
+
+#button24:hover {
+    background: linear-gradient(#6495ED, #7B68EE) #6495ED;
+}
+
+#button24:active {
+    background: linear-gradient(#7B68EE, #6495ED) #7B68EE;
+}
