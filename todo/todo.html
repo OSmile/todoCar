@@ -1,0 +1,74 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+
+<head>
+    <title>ToDoCar</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <link rel="stylesheet" type="text/css" href="todo.css" />
+    <link rel="stylesheet" type="text/css" href="menu.css" />
+
+
+</head>
+
+<body>
+    <div id="header">
+        <a name="top"></a>
+        <div class="header_title header_title_name">Владислав Мигачев</div>
+        <div class="header_title header_title_car">Renault Logan</div>
+        <button><img src="../images/no_image.png" title="Сменить изображение машины" alt="Машина" id="car"></button>
+    </div>
+    </div>
+
+    <table>
+        <tbody id="menu">
+            <tr>
+                <a href="#" id="add_button" class="button24">Добавить строку в таблицу</a>
+            </tr>
+            <tr>
+                <a href="#" class="button24">Добавить машину</a>
+            </tr>
+            <tr>
+                <a href="../welcome/welcome_page.html" class="button24">Выйти</a>
+            </tr>
+        </tbody>
+    </table>
+    <table id="car_parts">
+        <thead id="head_block">
+            <tr>
+                <th>Parts</th>
+                <th>When last time</th>
+                <th>When next time</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr id="tr11">
+                <td class="td_block">
+                    <img src="../images/oil.png" alt="Oil" title="Машинное масло" class="picture">
+                </td>
+                <td class="td_block">
+                    <b>22.12.2018</b>
+                </td>
+                <td class="td_block">
+                    <b>13.04.2019</b>
+                </td>
+            </tr>
+            <tr>
+                <td class="td_block">
+                    <img src="../images/belt.png" alt="belt" title="Ремень" class="picture">
+                </td>
+                <td class="td_block">
+                    <b>13.07.2017</b>
+                </td>
+                <td class="td_block">
+                    <b>13.07.2019</b>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <div id="footer">
+        <a href="#top">Наверх</a>
+    </div>
+    <script src="todo.js"></script>
+</body>
+
+</html>
